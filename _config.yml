@@ -20,8 +20,8 @@
 
 title:            'Eyreville'
 description:      'A little exhibit'
-url:              'https://minicomp.github.io'
-baseurl:          '/eyreville'
+url:              'https://eyrevilledemo.netlify.com/'
+baseurl:          '/'
 copyright:        'Jolene, 2019'
 logo:             '/assets/logo.png'
 
