@@ -21,7 +21,7 @@
 title:            'The Eyreville Site'
 description:      'Excavations by DHR between 2016 and 2019'
 url:              'https://eyrevilledemo.netlify.com'
-baseurl:          '/eyreville'
+baseurl:          ''
 copyright:        'Virginia Department of Historic Resources 2020'
 logo:             '/assets/logo.png'
 
