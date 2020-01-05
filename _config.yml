@@ -18,11 +18,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Eyreville'
-description:      'A little exhibit'
+title:            'The Eyreville Site'
+description:      'Excavations by DHR between 2016 and 2019'
 url:              'https://eyrevilledemo.netlify.com/'
-baseurl:          '/'
-copyright:        'Jolene, 2019'
+baseurl:          '/eyreville'
+copyright:        'Virginia Department of Historic Resources 2020'
 logo:             '/assets/logo.png'
 
 # ---------------------------------------------------------------
@@ -66,7 +66,7 @@ collections:
     output: true
   eyreville: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'eyre_item' # the layout for the pages to use
+    layout: 'eyreville_item' # the layout for the pages to use
     metadata:
       source: 'eyreville.csv' # path to the metadata file within `_data`
     images:
@@ -129,14 +129,14 @@ menu:
 #
 
 footer:
-  links:
-    - label: 'GitHub'
-      link: 'https://github.com/minicomp/wax'
-    - label: 'Credits'
-      link: '/credits'
-    - label: 'Contact'
-      link: 'https://gitter.im/minicomp/wax/'
-  logos:
-    - img: '/img/logo.png'
+  # links:
+  #   - label: 'GitHub'
+  #     link: 'https://github.com/minicomp/wax'
+  #   - label: 'Credits'
+  #     link: '/credits'
+  #   - label: 'Contact'
+  #     link: 'https://gitter.im/minicomp/wax/'
+  # logos:
+  #   - img: '/img/logo.png'
 
 # FIN

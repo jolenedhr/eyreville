@@ -10,8 +10,8 @@ $logo: url("{{ '/assets/logo.png' | absolute_url }}");
 
 /* text */
 
-$body-font:       'Open Sans', 'sans-serif';
-$heading-font:    'Open Sans', 'sans-serif';
+$body-font:       'Roboto', 'sans-serif';
+$heading-font:    'Times New Roman', 'sans-serif';
 
 
 /* Image Size */
@@ -21,11 +21,11 @@ $thumbnail-width: 140px;
 
 /* colors */
 
-$text-color:      #100c01;
-$bg-color:        #ffffff;
-$neutral:         #eae7de;
-$accent-light:    #966d09;
-$accent-dark:     #644906;
+$text-color:      #1b263b;
+$bg-color:        #f5f1e7;
+$neutral:         #ebe3d0;
+$accent-light:    #27476e;
+$accent-dark:     #001d4a;
 
 /* viewport sizes */
 
