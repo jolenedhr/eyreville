@@ -112,10 +112,10 @@ menu:
         link: '/credits/'
   - label: 'Exhibits'
     sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
-      - label: 'Inline Image References'
-        link: '/exhibits/b/'
+      - label: 'Eyreville in the 17th Century'
+        link: '/exhibits/17c/'
+      - label: 'Eyreville in the 18th Century'
+        link: '/exhibits/18c/'
   - label: 'Browse'
     link: '/collection/'
   - label: 'Search'
@@ -129,13 +129,11 @@ menu:
 #
 
 footer:
-  # links:
-  #   - label: 'GitHub'
-  #     link: 'https://github.com/minicomp/wax'
-  #   - label: 'Credits'
-  #     link: '/credits'
-  #   - label: 'Contact'
-  #     link: 'https://gitter.im/minicomp/wax/'
+  links:
+   - label: 'Wax'
+     link: 'https://github.com/minicomp/wax'
+   - label: 'Virginia Department of Historic Resources'
+     link: 'https://www.dhr.virginia.gov/'
   # logos:
   #   - img: '/img/logo.png'
 
