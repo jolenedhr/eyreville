@@ -18,7 +18,7 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'The Eyreville Site'
+title:            'Archaeology at the Eyreville Site'
 description:      'Excavations by DHR between 2016 and 2019'
 url:              'https://eyrevilledemo.netlify.com'
 baseurl:          ''

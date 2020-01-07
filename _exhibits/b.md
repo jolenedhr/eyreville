@@ -4,9 +4,28 @@ title: 'Eyreville in the 18th Century'
 author: Jolene Smith
 publish_date: 2020-01-06
 permalink: /exhibits/18c/
+custom_css: leaflet
+custom_js: leaflet
 ---
 
 Ut eleifend lacus at erat efficitur bibendum. Ut laoreet elit nec dolor molestie finibus. Vivamus justo risus, scelerisque nec dolor ut, pretium fringilla purus. Nam nisl erat, tristique ac libero vitae, bibendum pellentesque nulla. Praesent accumsan ut mauris ut euismod. Etiam mattis a justo eget blandit. Aliquam vitae magna eget nisi suscipit finibus id sit amet nulla.
+
+{% raw %}
+<div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+{% endraw %}
+
+{% raw %}
+<script>
+// create the map object and set the cooridnates of the initial view:
+var map = L.map('map').setView([37.33681, -76,96358], 11);
+
+// create the tile layer with correct attribution:
+L.tileLayer('http://{s}.tiles.mapbox.com/v3/jamesg87.goac2bf1/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
+}).addTo(map);
+</script>
+{% endraw %}
 
 Nam velit leo, mattis ac dui non, vulputate porttitor sapien. Praesent in aliquet dui. Nulla facilisi. Maecenas nulla ex, facilisis non aliquet ac, ultrices eu sem. Sed vel aliquet urna. Mauris quis ex at lectus iaculis elementum id id massa. Integer luctus nulla vel tellus rutrum, ac pulvinar erat finibus. Aliquam erat volutpat. Pellentesque vel velit sit amet mauris dignissim feugiat.
 
