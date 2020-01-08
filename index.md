@@ -71,7 +71,7 @@ banner:
 </script> -->
 
 
-<!-- <script>
+<script>
 // create the map object and set the cooridnates of the initial view:
 var map = L.map('map').setView([37.33681, -76,96358], 11);
 var customLayer = L.geoJson(null, {
@@ -89,7 +89,7 @@ L.tileLayer('http://{s}.tiles.mapbox.com/v3/jamesg87.goac2bf1/{z}/{x}/{y}.png', 
 
   }).addTo(map);
 </script>
-{% endraw %} -->
+{% endraw %}
 
 This is a website made by Jolene Smith purely for experimentation and demonstration using __Wax__, a [tool](https://minicomp.github.io/wiki/#/wax/) for generating static sites for digital humanities using principles of Minimal Computing.
 
